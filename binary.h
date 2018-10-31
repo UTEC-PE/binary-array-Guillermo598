@@ -25,7 +25,7 @@ class boolean {
         }
     
         void clear() {    
-            for (int i = 0; i < size*8; i++)
+            for (int i = 0; i < size; i++)
                 array[i/8] &= ~(1 << (i%8));
         }
              
